@@ -15,9 +15,9 @@ driver = webdriver.Chrome(chrome_options=chrome_options)
 driver.get("https://www.facebook.com/")
 
 time.sleep(4)
-driver.find_element_by_id("email").send_keys('roadf4good@gmail.com') #replace with your email or phone  number
+driver.find_element_by_id("email").send_keys('') #replace with your email or phone  number
 time.sleep(2)
-driver.find_element_by_id("pass").send_keys('BiniBini²') #replace with your password
+ #replace with your password
 time.sleep(2)
 driver.find_element_by_name("login").click()
 time.sleep(4)
